@@ -1,0 +1,58 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+    width: 100svw;
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #313140;
+}
+
+body img {
+    margin-top: -150px;
+    width: 20rem;
+}
+
+#information {
+    padding: 20px;
+    width: 50%;
+    color: #ffffff;
+    background-color: #414155;
+    border-radius: 8px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 13.5pt;
+}
+
+#buttons {
+    margin-top: 10px;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+#buttons button {
+    padding: 8px 30px;
+    color: #ffffff;
+    background-color: #414155;
+    border: none;
+    border-radius: 8px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 13.5pt;
+    cursor: pointer;
+    transition: 0.2s background-color ease-in-out, 0.2s transform ease-in-out;
+}
+
+#buttons button:hover {
+    background-color: #454560;
+    transform: translateY(-5px);
+}
